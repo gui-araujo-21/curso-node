@@ -1,0 +1,3 @@
+Nessa aula vimos que  --save-dev faz com que o pacote npm baixado fique apenas para NECESSIDADES DOS DEV,
+Dessa forma, ele nao fica em "dependencies" no package.json e nao sera baixado automaticamente com npm install
+exemplo de uso: npm install --save-dev chalk@4.1.0

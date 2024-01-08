@@ -1,0 +1,2 @@
+Nessa aula vimos que ao instalar um pacote npm, ele fica em "dependencies" no package.json,
+o "dependencies" é como se fosse uma registro dos pacotes npm baixados

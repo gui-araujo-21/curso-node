@@ -1,0 +1,3 @@
+para remover/desinstalar um pacote utilizamos npm uninstall arquivo,
+exemplo: npm uninstall lodash
+ao desinstalar um pacote, ele tambem é removido de "dependencies" do package.json
