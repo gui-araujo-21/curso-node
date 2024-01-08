@@ -1,0 +1,2 @@
+npm init -y 
+#cria o npm com as configuracoes padroes, yes para tudo
