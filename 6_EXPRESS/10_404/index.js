@@ -26,6 +26,7 @@ app.get('/', (req,res)=>{
     res.sendFile(`${basePath}/index.html`);
 })
 
+//Se nao for encontrado nenhuma rota acima, o programa executa esse middleware
 app.use((req,res,next)=>{
     res.status(404)
     res.sendFile(`${basePath}/404.html`)
