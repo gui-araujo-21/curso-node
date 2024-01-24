@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    color: white;
+    background-color: brown;
+}
+
+#navbar h2{
+    font-weight: bold;
+}
+
+#navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    
+}
+
+#navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    margin: 1em;
+}
+form{
+    margin: 0 auto;
+    max-width: 450px;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5em;
+}
+
+.form-control label{
+    font-weight: bold;
+    margin-bottom: 0.3em;
+}
+
+.form-control input,
+.form-control textarea{
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+form input[type="submit"]{
+    background-color: #db4c3f;
+    color: #fff;
+    padding: .7em 1.5em;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+/*TASKS*/
+
+.task-list{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.task-list li{
+    padding: .5em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #efefef;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-list .title{
+    font-weight: bold;
+    color: #db4c3f;
+    transition: .5s;
+    font-size: 1.2em;
+}
+
+.task-list .title:hover{
+    color: #333;
+}
+
+.actions{
+    display: flex;
+}
+
+.actions i{
+    font-size: 1.5em;
+    margin-right: .6em;
+    color: #333;
+}
+
+.actions i:hover{
+    color: #db4c3f;
+}
+
+
+
+
